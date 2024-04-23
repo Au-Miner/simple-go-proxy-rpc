@@ -9,13 +9,6 @@ import (
 	"reflect"
 )
 
-const (
-	PROXY4G_VERSION = "proxy4go-v1.0.0"
-	PROXY4G_MAJOR   = 1
-	PROXY4G_MINOR   = 0
-	PROXY4G_BUILD   = 0
-)
-
 type invocationProxy struct {
 	conn net.Conn
 }
